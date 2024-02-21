@@ -1,0 +1,182 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc4a3c;
+}
+
+section {
+    margin: 2em;
+    text-align: center;
+}
+
+#aboutus {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#login,
+#signup {
+    text-align: center;
+}
+
+
+#ourcommunity {
+    background-color: #ffb6c1;
+    padding: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+  .scroll-container {
+    overflow: hidden;
+  }
+  
+  .scrolling-image {
+    animation: scrollImage 10s linear infinite;
+  }
+  
+  @keyframes scrollImage {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Adjust the percentage based on the image width */
+    }
+  }
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #336699;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .top-buttons {
+    display: flex;
+  }
+  
+  .menu-button {
+    background-color: #336699;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .profile-icon {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .profile-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 20px;
+  }
+  
+  .profile-options {
+    position:absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  .profile-options button {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    background-color: rgb(11, 252, 83);
+    cursor: pointer;
+  }
+  
+  .profile-options button:hover {
+    background-color: #f0f0f0;
+  }
+  .menu-options {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  .menu-option {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    text-align: left;
+    border: none;
+    background-color: rgb(15, 15, 14);
+    cursor: pointer;
+  }
+  
+  .menu-option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Add media queries for responsiveness if needed */
+  
+  .mySlides {
+    display: none;
+  }
+  .button-link {
+    text-decoration: none; /* Remove underline from the button link */
+  }

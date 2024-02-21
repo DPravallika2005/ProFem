@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Portal</title>
+  <link rel="stylesheet" href="C:\Users\admin\Desktop\gdsc\styles.css">
+</head>
+<body>
+  <header>
+    <div class="menu-icon">&#9776;</div>
+    <div class="top-buttons">
+      <button class="menu-button">Gallery</button>
+      <button class="menu-button">Blog</button>
+      <button class="menu-button">Events</button>
+    </div>
+    <div class="profile-icon">
+      <img src="C:\Users\admin\Desktop\gdsc\pictures\WhatsApp Image 2024-02-03 at 10.43.56 PM.jpeg" alt="Profile">
+      <div class="profile-options">
+        <button><a href="emp_profile.html" class="button">Profile</a></button>
+        <!-- <button class="profile-button">Logout</button> -->
+        <button><a href="index.html" class="button">Logout</a></button>
+      </div>
+    </div>
+    <div class="menu-options">
+        <button class="menu-option">Settings</button>
+        <button class="menu-option">History</button>
+        <button class="menu-option">Logout</button>
+      </div>
+  </header>
+<style>
+   
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left; /* Align links to the left on small screens */
+  }
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(71, 42, 42);
+  transition: 0.3s;
+  width: 30%;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(232, 11, 11, 0.688);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 150px; /* Adjust the height as needed */
+}
+
+.container {
+  padding: 2px 16px;
+}
+</style>
+<div class="card-container">
+
+<div class="card">
+    <img src = "C:\Users\admin\Desktop\gdsc\pictures\WhatsApp Image 2024-02-04 at 1.51.25 AM.jpeg">
+    <div class="container">
+      <h4><b>Baskets</b></h4> 
+      <p>Requests:0</p> 
+    </div>
+  </div>
+  <div class="card">
+    <img src = "C:\Users\admin\Desktop\gdsc\pictures\WhatsApp Image 2024-02-04 at 1.52.11 AM (1).jpeg">
+    <div class="container">
+      <h4><b>Earrings</b></h4> 
+      <p>Requests:0</p> 
+    </div>
+  </div>
+
+   <div class="card">
+    <img src = "C:\Users\admin\Desktop\gdsc\pictures\WhatsApp Image 2024-02-04 at 1.52.11 AM.jpeg">
+    <div class="container">
+      <h4><b>Bags</b></h4> 
+      <p>Requests:0</p> 
+    </div>
+  </div>
+</div>
+  <script src="C:\Users\admin\Desktop\gdsc\script2.js"></script>
+</body>
+</html>
